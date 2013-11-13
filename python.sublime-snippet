@@ -1,0 +1,39 @@
+<snippet>
+    <content><![CDATA[
+    """${1:One liner description}
+
+    Parameters
+    ----------
+    ${2}
+    Returns
+    -------
+    ${3}
+    """
+    ]]></content>
+    <tabTrigger>docstring</tabTrigger>
+    <scope>source.python</scope>
+    <description>Adds a docstring skeleton to function</description>
+</snippet>
+
+<snippet>
+    <content><![CDATA[
+        import pdb; pdb.set_trace()
+    ]]></content>
+    <tabTrigger>pdb</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
+
+<snippet>
+    <content><![CDATA[
+    class ${1:ClassTestName}(unittest.TestCase):
+        def setUp(self):
+            ${2:pass}
+
+        def tearDown(self):
+            ${3:pass}
+
+    ]]></content>
+    <tabTrigger>testcase</tabTrigger>
+    <scope>source.python</scope>
+    <description>Adds a unittest TestCase skeleton at current pointer</description>
+</snippet>

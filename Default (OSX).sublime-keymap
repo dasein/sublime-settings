@@ -1,0 +1,68 @@
+[
+     { "keys": ["ctrl+s"], 
+        "command": "show_panel", 
+        "args": {"panel": "find", "reverse":false} 
+     },
+
+	{ "keys": ["ctrl+r"], 
+	    "command": "show_panel", 
+	    "args": {"panel": "find", "reverse":true} 
+	},
+
+
+	{ "keys": ["ctrl+s"], "command": "find_next",
+	    "context":
+	    [
+	        {"key": "panel", "operand": "find"},
+	        { "key": "panel_visible", "operator": "equal", "operand": true }
+	    ]
+	},
+
+	{ "keys": ["ctrl+r"], "command": "find_prev",
+	    "context":
+	    [
+	        {"key": "panel", "operand": "find"},
+	        { "key": "panel_visible", "operator": "equal", "operand": true }
+	    ]
+	},
+
+    { "keys": ["enter"], "command": "hide_panel",
+        "context":
+        [
+            {"key": "panel", "operand": "find"},
+            { "key": "panel_visible", "operator": "equal", "operand": true }
+        ]
+    },
+
+    { "keys": ["ctrl+e"], "command": "hide_panel",
+        "context":
+        [
+            {"key": "panel", "operand": "find"},
+            { "key": "panel_visible", "operator": "equal", "operand": true }
+        ]
+    },
+
+    { "keys": ["ctrl+a"], "command": "hide_panel",
+        "context":
+        [
+            {"key": "panel", "operand": "find"},
+            { "key": "panel_visible", "operator": "equal", "operand": true }
+        ]
+    },
+
+    { "keys": ["right"], "command": "hide_panel",
+        "context":
+        [
+            {"key": "panel", "operand": "find"},
+            { "key": "panel_visible", "operator": "equal", "operand": true }
+        ]
+    },
+
+    { "keys": ["left"], "command": "hide_panel",
+        "context":
+        [
+            {"key": "panel", "operand": "find"},
+            { "key": "panel_visible", "operator": "equal", "operand": true }
+        ]
+    }
+]
