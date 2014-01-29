@@ -2,9 +2,12 @@
 	"installed_packages":
 	[
 		"Git",
+		"rsub",
 		"sublemacspro",
 		"SublimeCodeIntel",
-		"sublimelint",
+		"SublimeLinter",
+		"SublimeLinter-cpplint",
+		"SublimeLinter-pylint",
 		"Theme - Soda"
 	]
 }
