@@ -1,13 +1,12 @@
 {
 	"auto_complete_commit_on_tab": true,
-	"color_scheme": "Packages/Color Scheme - Default/Zenburnesque.tmTheme",
-	"font_face": "Ubunto Mono",
-	"word_wrap": true,
+	"color_scheme": "Packages/User/Zenburnesque (SL).tmTheme",
+	"font_face": "Menlo",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 12,
+	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -18,5 +17,6 @@
 		79,
 		99
 	],
-	"theme": "Soda Dark 3.sublime-theme"
+	"theme": "Soda Dark 3.sublime-theme",
+	"word_wrap": true
 }
