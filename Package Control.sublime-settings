@@ -1,13 +1,22 @@
 {
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
+		"Emacs Pro Essentials",
 		"Git",
+		"GitGutter",
+		"GoSublime",
+		"Package Control",
 		"rsub",
-		"sublemacspro",
 		"SublimeCodeIntel",
-		"SublimeLinter",
-		"SublimeLinter-cpplint",
+		"SublimeLinter-flake8",
+		"SublimeLinter-golint",
 		"SublimeLinter-pylint",
-		"Theme - Soda"
+		"SummitLinter",
+		"Theme - Soda",
+		"zenburn"
 	]
 }

@@ -36,7 +36,7 @@
 				"excludes":
 				[
 				],
-				"rcfile": "/Users/pfennh/work/tools/.pylintrc"
+				"rcfile": "/Users/herb/work/tools/.pylintrc"
 			}
 		},
 		"mark_style": "outline",
@@ -45,12 +45,12 @@
 		{
 			"linux":
 			[
-				"/home/hpfennig/work/tools"
+				"/home/herb/work/tools"
 			],
 			"osx":
 			[
-				"/Users/pfennh/work/tools",
-				"/Users/pfennh/bin"
+				"/Users/herb/work/tools",
+				"/Users/herb/bin"
 			],
 			"windows":
 			[
@@ -63,7 +63,7 @@
 			],
 			"osx":
 			[
-				"/Users/pfennh/work/tools"
+				"/Users/herb/work/tools"
 			],
 			"windows":
 			[
