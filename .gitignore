@@ -1,4 +1,10 @@
-linters
-Package Control.cache
-Package Control.system-ca-bundle
-Package Control.last-run
+# Ignore everything
+*
+
+# Some basics
+!.gitignore
+!README.md 
+
+# Just settings
+!*.sublime-settings
+

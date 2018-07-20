@@ -5,10 +5,12 @@
 	],
 	"installed_packages":
 	[
+		"Dockerfile Syntax Highlighting",
 		"Emacs Pro Essentials",
 		"Git",
 		"GitGutter",
 		"GoSublime",
+		"Markdown Extended",
 		"Package Control",
 		"rsub",
 		"SublimeCodeIntel",
